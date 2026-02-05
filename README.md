@@ -48,4 +48,3 @@ devnet-2882/
 │
 ├── requirements.txt
 └── .env.example
-
