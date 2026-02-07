@@ -27,25 +27,25 @@ Interpret and visualize results with statistically meaningful thresholds
   ______ftrain_wireless_assoc_iforest.py  
 
 ├── models/  
-     /── iforest_location.joblib  
-     /── iforest_mx_uplink.joblib  
-     /── iforest_wireless_assoc.joblib  
-     /── README.md  
+  ______fiforest_location.joblib  
+  ______fiforest_mx_uplink.joblib  
+  ______fiforest_wireless_assoc.joblib  
+  ______fREADME.md  
   
 ├── infer/  
-    /── alert_eval.py       # ONE canonical evaluator  
-    /── thresholds.py  
-    /── README.md  
+  ______flert_eval.py       # ONE canonical evaluator  
+  ______fthresholds.py  
+    ______fREADME.md  
   
 ├── plot/  
-    /── plot_location.py  
-    /── plot_mx_uplink.py  
-    /── plot_wireless_assoc.py  
-    /── plot_alert_windows.py  
+  ______fplot_location.py  
+  ______fplot_mx_uplink.py  
+  ______fplot_wireless_assoc.py  
+  ______fplot_alert_windows.py  
   
 ├── notebooks/  
-    /── exploration.ipynb  
-    /── model_validation.ipynb  
+  ______fexploration.ipynb  
+  ______fmodel_validation.ipynb  
   
 ├── requirements.txt  
 └── .env.example  
