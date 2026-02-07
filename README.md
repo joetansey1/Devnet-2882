@@ -22,9 +22,9 @@ Interpret and visualize results with statistically meaningful thresholds
   ______README.md  
   
 ├── train/  
-   /── train_location_iforest.py  
-   /── train_mx_uplink_iforest.py  
-   /── train_wireless_assoc_iforest.py  
+  ______ftrain_location_iforest.py  
+  ______ftrain_mx_uplink_iforest.py  
+  ______ftrain_wireless_assoc_iforest.py  
 
 ├── models/  
      /── iforest_location.joblib  
