@@ -16,10 +16,10 @@ Interpret and visualize results with statistically meaningful thresholds
 └── samples/            # small example CSVs for reviewers  
   
 ├── acquire/  
-  fetch_wireless_events.py  
-  fetch_mx_uplink.py  
-  fetch_location_csv.md  
-    README.md  
+  _fetch_wireless_events.py  
+  _fetch_mx_uplink.py  
+  _fetch_location_csv.md  
+  _README.md  
   
 ├── train/  
    /── train_location_iforest.py  
