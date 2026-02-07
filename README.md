@@ -16,36 +16,36 @@ Interpret and visualize results with statistically meaningful thresholds
 └── samples/            # small example CSVs for reviewers  
   
 ├── acquire/  
-   ├── fetch_wireless_events.py  
-   ├── fetch_mx_uplink.py  
-   ├── fetch_location_csv.md  
-   └── README.md  
+   /── fetch_wireless_events.py  
+   /── fetch_mx_uplink.py  
+   /── fetch_location_csv.md  
+   /── README.md  
   
 ├── train/  
-   ── train_location_iforest.py  
-   ── train_mx_uplink_iforest.py  
-   ── train_wireless_assoc_iforest.py  
+   /── train_location_iforest.py  
+   /── train_mx_uplink_iforest.py  
+   /── train_wireless_assoc_iforest.py  
 
 ├── models/  
-     ── iforest_location.joblib  
-     ── iforest_mx_uplink.joblib  
-     ── iforest_wireless_assoc.joblib  
-     ── README.md  
+     /── iforest_location.joblib  
+     /── iforest_mx_uplink.joblib  
+     /── iforest_wireless_assoc.joblib  
+     /── README.md  
   
 ├── infer/  
-    ── alert_eval.py       # ONE canonical evaluator  
-    ── thresholds.py  
-    ── README.md  
+    /── alert_eval.py       # ONE canonical evaluator  
+    /── thresholds.py  
+    /── README.md  
   
 ├── plot/  
-    ── plot_location.py  
-    ── plot_mx_uplink.py  
-    ── plot_wireless_assoc.py  
-    ── plot_alert_windows.py  
+    /── plot_location.py  
+    /── plot_mx_uplink.py  
+    /── plot_wireless_assoc.py  
+    /── plot_alert_windows.py  
   
 ├── notebooks/  
-    ── exploration.ipynb  
-    ── model_validation.ipynb  
+    /── exploration.ipynb  
+    /── model_validation.ipynb  
   
 ├── requirements.txt  
 └── .env.example  
